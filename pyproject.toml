@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "montywrapper"
+version = "0.1.0"
+description = ""
+authors = ["trojvn <mrx.trojan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+montydb = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
