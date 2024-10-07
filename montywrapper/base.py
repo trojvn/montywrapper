@@ -11,7 +11,7 @@ class MontyBase(MontyClient):
                 set_storage(
                     str(db_path),
                     storage="sqlite",
-                    use_bson=True,
+                    use_bson=False,
                     journal_mode="WAL",
                     check_same_thread=False,
                 )
