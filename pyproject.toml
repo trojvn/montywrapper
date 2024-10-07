@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-montydb = "^2.5.3"
+montydb = {extras = ["bson"], version = "^2.5.3"}
 
 
 [build-system]
